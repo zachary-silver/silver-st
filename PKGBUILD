@@ -11,7 +11,7 @@ makedepends=('ncurses')
 url="www.github.com/ZmanSilver/silver-st"
 source=(https://github.com/ZmanSilver/silver-packages/blob/master/silver-st.tar.gz
         config.h)
-sha256sums=('7ddc89e2cd65ff294f3bc2af3c63a6c68cbc850b7ff09ba6aa15c0632bf0280a'
+sha256sums=('602129e12e53d609bf0e92699b5c8f1bba3644d9ed3e2d31de9706d9bc6600c1'
             'e700886ac3265a609f76b8118b7f43e585be34319ac990e79a66ae5b46dd13ff')
 
 prepare() {
