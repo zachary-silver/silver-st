@@ -11,7 +11,7 @@ makedepends=('ncurses')
 url="http://st.suckless.org"
 source=(https://github.com/ZmanSilver/silver-st/blob/master/silver-st.tar.gz
         config.h)
-sha256sums=('46bfc36396ab4cf083adb1d4fb8b9cdd2388e824761821e33c78360382c3d305'
+sha256sums=('7ddc89e2cd65ff294f3bc2af3c63a6c68cbc850b7ff09ba6aa15c0632bf0280a'
             'e700886ac3265a609f76b8118b7f43e585be34319ac990e79a66ae5b46dd13ff')
 
 prepare() {
