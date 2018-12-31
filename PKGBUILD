@@ -8,7 +8,7 @@ arch=('i686' 'x86_64')
 license=('MIT')
 depends=('libxft' 'libxext' 'xorg-fonts-misc')
 makedepends=('ncurses')
-url="http://st.suckless.org"
+url="www.github.com/ZmanSilver/silver-st"
 source=(https://github.com/ZmanSilver/silver-st/blob/master/silver-st.tar.gz
         config.h)
 sha256sums=('7ddc89e2cd65ff294f3bc2af3c63a6c68cbc850b7ff09ba6aa15c0632bf0280a'
