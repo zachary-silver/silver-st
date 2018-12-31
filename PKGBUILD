@@ -3,16 +3,16 @@
 pkgname=silver-st
 pkgver=0.8.1
 pkgrel=1
-pkgdesc='A simple virtual terminal emulator for X.'
+pkgdesc='A customized clone of the simple virtual terminal emulator for X.'
 arch=('i686' 'x86_64')
 license=('MIT')
 depends=('libxft' 'libxext' 'xorg-fonts-misc')
 makedepends=('ncurses')
 url="http://st.suckless.org"
-source=(http://dl.suckless.org/st/$pkgname-$pkgver.tar.gz
+source=(https://github.com/ZmanSilver/silver-st/blob/master/silver-st.tar.gz
         config.h)
-sha256sums=('c4fb0fe2b8d2d3bd5e72763e80a8ae05b7d44dbac8f8e3bb18ef0161c7266926'
-            'bed7977c855f02e3968a754e813015e4214b52102e3c54712d8a52245bcceeec')
+sha256sums=('46bfc36396ab4cf083adb1d4fb8b9cdd2388e824761821e33c78360382c3d305'
+            'e700886ac3265a609f76b8118b7f43e585be34319ac990e79a66ae5b46dd13ff')
 
 prepare() {
   cd $srcdir/$pkgname
