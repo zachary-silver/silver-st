@@ -1,15 +1,16 @@
-Silver Simple Terminal
-
-This is my customized clone of suckless.org 's terminal emulator client st.
+# Silver Simple Terminal
+This is my customized clone of suckless.org 's simple terminal implementation for Xorg.
 This version of st is patched with alpha, clipboard, hidecursor, and
 scrollback and uses my preferred color scheme. Must be running something like
 compton in order to enable transparency.
 
-Screenshot
-screen.png
+## Screenshot
+![Screenshot](https://raw.github.com/ZmanSilver/silver-st/master/screen.png)
 
-Installation
-makepkg -sri
+## Installation
 
-Uninstalling
-sudo pacman -R silver-st
+	makepkg -sri
+
+## Uninstalling
+
+	sudo pacman -R silver-st
