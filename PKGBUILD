@@ -9,10 +9,10 @@ license=('MIT')
 depends=('libxft' 'libxext' 'xorg-fonts-misc')
 makedepends=('ncurses')
 url="www.github.com/ZmanSilver/silver-st"
-source=(https://www.dropbox.com/s/nl1e2m7qsso74qn/silver-st.tar.gz
+source=(https://www.dropbox.com/s/av0d5cv3bvh770m/silver-st.tar.gz
 	config.h)
-sha256sums=('7ddc89e2cd65ff294f3bc2af3c63a6c68cbc850b7ff09ba6aa15c0632bf0280a'
-            'e700886ac3265a609f76b8118b7f43e585be34319ac990e79a66ae5b46dd13ff')
+sha256sums=('202011ee5c57057a8a7fab68a41644094d1415c1fc1d2c682ab9e85455a47269'
+            '6b4d5b6b67848809479120096491d17f812c8ca8af95b5ada877195a42011e73')
 
 prepare() {
   cd $srcdir/$pkgname

@@ -103,7 +103,7 @@ static const char *colorname[] = {
 	"#ff9554",	/*	  9: brred	*/
 	"#caff96",	/*	 10: brgreen	*/
 	"#f2ef93",	/*	 11: bryellow	*/
-	"#8ebbdb",	/*	 12: brblue	*/
+	"#7abbe8",	/*	 12: brblue	*/
 	"#ce98b2",	/*	 13: brmagenta	*/
 	"#79d1c9",	/*	 14: brcyan	*/
 	"#fffcf2",	/*	 15: brwhite	*/
@@ -113,7 +113,6 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#1f222d",	/*	256: background	*/
 	"#9ec1d8",	/*	257: foreground	*/
-	"#252936",	/*	backup		*/
 };
 
 /*
@@ -122,8 +121,8 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 257;
 unsigned int defaultbg = 256;
-static unsigned int defaultcs = 14;
-static unsigned int defaultrcs = 15;
+static unsigned int defaultcs = 15;
+static unsigned int defaultrcs = 8;
 
 /*
  * Default shape of cursor
@@ -132,7 +131,7 @@ static unsigned int defaultrcs = 15;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 4;
 
 /*
  * Default columns and rows numbers
@@ -182,6 +181,7 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 	{ TERMMOD,              XK_I,           iso14755,       {.i =  0} },
+	{ TERMMOD,              XK_Escape,      keyboard_select,{ 0 } },
 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
 	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
 };
