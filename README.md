@@ -1,4 +1,4 @@
-# Silver Simple Terminal
+# silver-st
 This is my customized clone of [suckless.org](https://suckless.org)'s simple terminal implementation for Xorg.
 This version of st is patched with alpha, clipboard, hidecursor, keyboardselect, and
 scrollback and uses my preferred color scheme. Must be running a window compositor like
