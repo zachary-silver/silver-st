@@ -4,9 +4,6 @@ This version of st is patched with alpha, clipboard, hidecursor, keyboardselect,
 scrollback and uses my preferred color scheme. Must be running something like
 compton in order to enable transparency.
 
-## Screenshot
-![Screenshot](https://raw.github.com/ZmanSilver/silver-st/master/screen.png)
-
 ## Installation
 
 	makepkg -sri
