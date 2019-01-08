@@ -2,17 +2,19 @@
 
 pkgname=silver-st
 pkgver=0.8.1
-pkgrel=1
-pkgdesc='A customized clone of the simple virtual terminal emulator for X.'
+pkgrel=2
+pkgdesc='A customized clone of a simple virtual terminal emulator for X.'
 arch=('i686' 'x86_64')
 license=('MIT')
-depends=('libxft' 'libxext' 'xorg-fonts-misc')
+depends=('libxft' 'libxext' 'xorg-fonts-misc' 'ttf-dejavu')
 makedepends=('ncurses')
+provides=($pkgname)
+conflicts=($pkgname 'st')
 url="www.github.com/ZmanSilver/silver-st"
-source=(https://www.dropbox.com/s/av0d5cv3bvh770m/silver-st.tar.gz
+source=(https://www.dropbox.com/s/8fsrs0u92yoftsf/silver-st.tar.gz
 	config.h)
-sha256sums=('202011ee5c57057a8a7fab68a41644094d1415c1fc1d2c682ab9e85455a47269'
-            '6b4d5b6b67848809479120096491d17f812c8ca8af95b5ada877195a42011e73')
+sha256sums=('bcd3cfc9b3c0932c59aa1c226049b2c0faac5ad7317936e872dae1e77f0fbc48'
+            '20575c9acb647193c4ad12dfb6e6992bac0fda4f4c0ec068984c19c0e0be57eb')
 
 prepare() {
   cd $srcdir/$pkgname

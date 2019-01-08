@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=16:antialias=true:autohint=true";
+static char *font = "mono:pixelsize=18:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
@@ -91,22 +91,22 @@ static const char *colorname[] = {
 	/* 8 normal colors */
 	"#1f222d",	/*	  0: black	*/
 	"#db7b3f",	/*	  1: red	*/
-	"#a1c47d",	/*	  2: green	*/
+	"#7dc481",	/*	  2: green	*/
 	"#f2ed6d",	/*	  3: yellow	*/
 	"#4e8cb7",	/*	  4: blue	*/
 	"#ba5d89",	/*	  5: magenta	*/
-	"#4bc1b7",	/*	  6: cyan	*/
-	"#f2eede",	/*	  7: white	*/
+	"#5ac9bf",	/*	  6: cyan	*/
+	"#fffcf2",	/*	  7: white	*/
 
 	/* 8 bright colors */
 	"#1f2833",	/*	  8: brblack	*/
 	"#ff9554",	/*	  9: brred	*/
-	"#caff96",	/*	 10: brgreen	*/
+	"#90db95",	/*	 10: brgreen	*/
 	"#f2ef93",	/*	 11: bryellow	*/
 	"#7abbe8",	/*	 12: brblue	*/
 	"#ce98b2",	/*	 13: brmagenta	*/
 	"#79d1c9",	/*	 14: brcyan	*/
-	"#fffcf2",	/*	 15: brwhite	*/
+	"#f9f8f2",	/*	 15: brwhite	*/
 
 	[255] = 0,
 
@@ -122,7 +122,7 @@ static const char *colorname[] = {
 unsigned int defaultfg = 257;
 unsigned int defaultbg = 256;
 static unsigned int defaultcs = 15;
-static unsigned int defaultrcs = 8;
+static unsigned int defaultrcs = 4;
 
 /*
  * Default shape of cursor
@@ -131,7 +131,7 @@ static unsigned int defaultrcs = 8;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 4;
+static unsigned int cursorshape = 2;
 
 /*
  * Default columns and rows numbers
@@ -144,8 +144,8 @@ static unsigned int rows = 24;
  * Default colour and shape of the mouse cursor
  */
 static unsigned int mouseshape = XC_xterm;
-static unsigned int mousefg = 7;
-static unsigned int mousebg = 0;
+static unsigned int mousefg = 15;
+static unsigned int mousebg = 15;
 
 /*
  * Color used to display font attributes when fontconfig selected a font which
