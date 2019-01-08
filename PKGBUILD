@@ -11,9 +11,9 @@ makedepends=('ncurses')
 provides=($pkgname)
 conflicts=($pkgname 'st')
 url="www.github.com/ZmanSilver/silver-st"
-source=(https://www.dropbox.com/s/8fsrs0u92yoftsf/silver-st.tar.gz
+source=(https://www.dropbox.com/s/1byx58zts3swycf/silver-st.tar.gz
 	config.h)
-sha256sums=('bcd3cfc9b3c0932c59aa1c226049b2c0faac5ad7317936e872dae1e77f0fbc48'
+sha256sums=('089e90add3056486633f89d029a2109592e49812839e43fb7af2dadb62000194'
             '20575c9acb647193c4ad12dfb6e6992bac0fda4f4c0ec068984c19c0e0be57eb')
 
 prepare() {
