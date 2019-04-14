@@ -11,7 +11,7 @@ compton in order to enable transparency.
 ## Dependencies
 
 st requires the libxft libxext and xorg-fonts-misc packages.
-The font I use in my customized version is DejaVu Sans Mono from the ttf-dejavu package.
+The font I use in my customized version is called Hermit-Regular (https://pcaro.es/p/hermit/).
 
 ## Installation
 
