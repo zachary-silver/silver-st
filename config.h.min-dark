@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hermit-Regular:pixelsize=18:antialias=true:autohint=true";
+static char *font = "Hermit:pixelsize=18:antialias=true:autohint=true:style=bold";
 static int borderpx = 0;
 
 /*
@@ -89,24 +89,24 @@ unsigned int alpha = 0xff;
 /* Zack's default color scheme */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#1f222d",	/*	  0: black	*/
-	"#db7b3f",	/*	  1: red	*/
+	"#63656f",	/*	  0: black	*/
+	"#f28a4a",	/*	  1: red	*/
 	"#7dc481",	/*	  2: green	*/
-	"#f2ed6d",	/*	  3: yellow	*/
+	"#ece768",	/*	  3: yellow	*/
 	"#4e8cb7",	/*	  4: blue	*/
 	"#ba5d89",	/*	  5: magenta	*/
 	"#75b7bf",	/*	  6: cyan	*/
-	"#fffcf2",	/*	  7: white	*/
+	"#d1c9c9",	/*	  7: white	*/
 
 	/* 8 bright colors */
-	"#1f2833",	/*	  8: brblack	*/
+	"#838590",	/*	  8: brblack	*/
 	"#ff9554",	/*	  9: brred	*/
 	"#90db95",	/*	 10: brgreen	*/
-	"#f2ef93",	/*	 11: bryellow	*/
+	"#f6f181",	/*	 11: bryellow	*/
 	"#7abbe8",	/*	 12: brblue	*/
 	"#cc6c99",	/*	 13: brmagenta	*/
 	"#88c9d1",	/*	 14: brcyan	*/
-	"#f9f8f2",	/*	 15: brwhite	*/
+	"#dfd7d7",	/*	 15: brwhite	*/
 
 	[255] = 0,
 
