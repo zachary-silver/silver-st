@@ -91,8 +91,8 @@ static const char *colorname[] = {
 	/* 8 normal colors */
 	"#3b404d",	/*	  0: black	*/
 	"#f28a4a",	/*	  1: red	*/
-	"#71bd75",	/*	  2: green	*/
-	"#eccf68",	/*	  3: yellow	*/
+	"#48a374",	/*	  2: green	*/
+	"#edbf53",	/*	  3: yellow	*/
 	"#4e8cb7",	/*	  4: blue	*/
 	"#ba5d89",	/*	  5: magenta	*/
 	"#75b7bf",	/*	  6: cyan	*/
@@ -102,8 +102,8 @@ static const char *colorname[] = {
 	/* 8 bright colors */
 	"#4d5261",	/*	  8: brblack	*/
 	"#eb8e54",	/*	  9: brred	*/
-	"#80c283",	/*	 10: brgreen	*/
-	"#f0d36e",	/*	 11: bryellow	*/
+	"#5aad82",	/*	 10: brgreen	*/
+	"#f0c665",	/*	 11: bryellow	*/
 	"#68a7d4",	/*	 12: brblue	*/
 	"#cc6c99",	/*	 13: brmagenta	*/
 	"#88c9d1",	/*	 14: brcyan	*/
