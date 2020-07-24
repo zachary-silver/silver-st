@@ -22,7 +22,7 @@ config.h:
 	$(CC) $(STCFLAGS) -c $<
 
 st.o: config.h st.h win.h
-x.o: arg.h st.h win.h
+x.o: arg.h config.h st.h win.h
 
 $(OBJ): config.h config.mk
 
@@ -30,15 +30,15 @@ st: $(OBJ)
 	$(CC) -o $@ $(OBJ) $(STLDFLAGS)
 
 clean:
-	rm -f st $(OBJ) silver-st.tar.gz
+	rm -f st $(OBJ) st-$(VERSION).tar.gz
 
 dist: clean
-	mkdir -p silver-st
+	mkdir -p st-$(VERSION)
 	cp -R FAQ LEGACY TODO LICENSE Makefile README config.mk\
 		config.def.h st.info st.1 arg.h st.h win.h $(SRC)\
-		silver-st
-	tar -cf - silver-st | gzip > silver-st.tar.gz
-	rm -rf silver-st
+		st-$(VERSION)
+	tar -cf - st-$(VERSION) | gzip > st-$(VERSION).tar.gz
+	rm -rf st-$(VERSION)
 
 install: st
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
@@ -47,6 +47,7 @@ install: st
 	mkdir -p $(DESTDIR)$(MANPREFIX)/man1
 	sed "s/VERSION/$(VERSION)/g" < st.1 > $(DESTDIR)$(MANPREFIX)/man1/st.1
 	chmod 644 $(DESTDIR)$(MANPREFIX)/man1/st.1
+	tic -sx st.info
 	@echo Please see the README file regarding the terminfo entry of st.
 
 uninstall:
