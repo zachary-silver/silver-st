@@ -120,7 +120,7 @@ static const char *colorname[] = {
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#232731",	/*	256: background	*/
-	"#bdbdbd",	/*	257: foreground	*/
+	"#cccccc",	/*	257: foreground	*/
 };
 
 
